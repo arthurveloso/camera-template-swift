@@ -3,31 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67F8387E24625E5B00CBEF41 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F8387D24625E5B00CBEF41 /* ResultViewController.swift */; };
 		B557C6A32447B82C007CF6D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557C6A22447B82C007CF6D8 /* AppDelegate.swift */; };
 		B557C6A72447B82C007CF6D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B557C6A62447B82C007CF6D8 /* HomeViewController.swift */; };
 		B557C6AA2447B82C007CF6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B557C6A82447B82C007CF6D8 /* Main.storyboard */; };
 		B557C6AC2447B830007CF6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B557C6AB2447B830007CF6D8 /* Assets.xcassets */; };
 		B557C6AF2447B830007CF6D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B557C6AD2447B830007CF6D8 /* LaunchScreen.storyboard */; };
-		B5DA93E02447BEDC00A8AB46 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA93DF2447BEDC00A8AB46 /* CameraViewController.swift */; };
-		B5DA93E32447C31B00A8AB46 /* arthur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DA93E22447C31B00A8AB46 /* arthur.jpg */; };
 		B5DA93E5244A698500A8AB46 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DA93E4244A698500A8AB46 /* PreviewViewController.swift */; };
+		DC7F0DDD66FB8CA21C832CCC /* Pods_camera_template_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 302DA7D37AF6E786A50F532C /* Pods_camera_template_swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B557C69F2447B82C007CF6D8 /* camera-template-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "camera-template-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		021BFD52C1325C9ECCB618F5 /* Pods-camera-template-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camera-template-swift.release.xcconfig"; path = "Target Support Files/Pods-camera-template-swift/Pods-camera-template-swift.release.xcconfig"; sourceTree = "<group>"; };
+		302DA7D37AF6E786A50F532C /* Pods_camera_template_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_camera_template_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F8387D24625E5B00CBEF41 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		B557C69F2447B82C007CF6D8 /* Inspiral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inspiral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B557C6A22447B82C007CF6D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B557C6A62447B82C007CF6D8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B557C6A92447B82C007CF6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B557C6AB2447B830007CF6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B557C6AE2447B830007CF6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B557C6B02447B830007CF6D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5DA93DF2447BEDC00A8AB46 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		B5DA93E22447C31B00A8AB46 /* arthur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arthur.jpg; sourceTree = "<group>"; };
 		B5DA93E4244A698500A8AB46 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		F515275CFCE1026022D3CE1E /* Pods-camera-template-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-camera-template-swift.debug.xcconfig"; path = "Target Support Files/Pods-camera-template-swift/Pods-camera-template-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,24 +37,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7F0DDD66FB8CA21C832CCC /* Pods_camera_template_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B24E4330DE341F4AF3F57CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				302DA7D37AF6E786A50F532C /* Pods_camera_template_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9F6851503DBB1299B02C695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F515275CFCE1026022D3CE1E /* Pods-camera-template-swift.debug.xcconfig */,
+				021BFD52C1325C9ECCB618F5 /* Pods-camera-template-swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B557C6962447B82C007CF6D8 = {
 			isa = PBXGroup;
 			children = (
 				B557C6A12447B82C007CF6D8 /* camera-template-swift */,
 				B557C6A02447B82C007CF6D8 /* Products */,
+				A9F6851503DBB1299B02C695 /* Pods */,
+				8B24E4330DE341F4AF3F57CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		B557C6A02447B82C007CF6D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B557C69F2447B82C007CF6D8 /* camera-template-swift.app */,
+				B557C69F2447B82C007CF6D8 /* Inspiral.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,12 +85,12 @@
 				B5DA93E12447C2F200A8AB46 /* Resources */,
 				B557C6A22447B82C007CF6D8 /* AppDelegate.swift */,
 				B557C6A62447B82C007CF6D8 /* HomeViewController.swift */,
-				B5DA93DF2447BEDC00A8AB46 /* CameraViewController.swift */,
+				B5DA93E4244A698500A8AB46 /* PreviewViewController.swift */,
+				67F8387D24625E5B00CBEF41 /* ResultViewController.swift */,
 				B557C6A82447B82C007CF6D8 /* Main.storyboard */,
 				B557C6AB2447B830007CF6D8 /* Assets.xcassets */,
 				B557C6AD2447B830007CF6D8 /* LaunchScreen.storyboard */,
 				B557C6B02447B830007CF6D8 /* Info.plist */,
-				B5DA93E4244A698500A8AB46 /* PreviewViewController.swift */,
 			);
 			path = "camera-template-swift";
 			sourceTree = "<group>";
@@ -76,7 +98,6 @@
 		B5DA93E12447C2F200A8AB46 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B5DA93E22447C31B00A8AB46 /* arthur.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -88,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B557C6B32447B830007CF6D8 /* Build configuration list for PBXNativeTarget "camera-template-swift" */;
 			buildPhases = (
+				78C9AA416C2852F50A028057 /* [CP] Check Pods Manifest.lock */,
 				B557C69B2447B82C007CF6D8 /* Sources */,
 				B557C69C2447B82C007CF6D8 /* Frameworks */,
 				B557C69D2447B82C007CF6D8 /* Resources */,
+				8ADABCFCC7B8770C2502A4CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,7 +121,7 @@
 			);
 			name = "camera-template-swift";
 			productName = "camera-template-swift";
-			productReference = B557C69F2447B82C007CF6D8 /* camera-template-swift.app */;
+			productReference = B557C69F2447B82C007CF6D8 /* Inspiral.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,11 +165,52 @@
 				B557C6AF2447B830007CF6D8 /* LaunchScreen.storyboard in Resources */,
 				B557C6AC2447B830007CF6D8 /* Assets.xcassets in Resources */,
 				B557C6AA2447B82C007CF6D8 /* Main.storyboard in Resources */,
-				B5DA93E32447C31B00A8AB46 /* arthur.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78C9AA416C2852F50A028057 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-camera-template-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADABCFCC7B8770C2502A4CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-camera-template-swift/Pods-camera-template-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-camera-template-swift/Pods-camera-template-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-camera-template-swift/Pods-camera-template-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B557C69B2447B82C007CF6D8 /* Sources */ = {
@@ -155,8 +219,8 @@
 			files = (
 				B557C6A72447B82C007CF6D8 /* HomeViewController.swift in Sources */,
 				B557C6A32447B82C007CF6D8 /* AppDelegate.swift in Sources */,
-				B5DA93E02447BEDC00A8AB46 /* CameraViewController.swift in Sources */,
 				B5DA93E5244A698500A8AB46 /* PreviewViewController.swift in Sources */,
+				67F8387E24625E5B00CBEF41 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,18 +362,19 @@
 		};
 		B557C6B42447B830007CF6D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F515275CFCE1026022D3CE1E /* Pods-camera-template-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PSBCUU9KJH;
+				DEVELOPMENT_TEAM = YB4WRZF6W4;
 				INFOPLIST_FILE = "camera-template-swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.melo.camera-template-swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armelo.camera-template-swift";
+				PRODUCT_NAME = Inspiral;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -317,18 +382,19 @@
 		};
 		B557C6B52447B830007CF6D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021BFD52C1325C9ECCB618F5 /* Pods-camera-template-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PSBCUU9KJH;
+				DEVELOPMENT_TEAM = YB4WRZF6W4;
 				INFOPLIST_FILE = "camera-template-swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.melo.camera-template-swift";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armelo.camera-template-swift";
+				PRODUCT_NAME = Inspiral;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
